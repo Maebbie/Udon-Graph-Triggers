@@ -8,8 +8,12 @@ Found here are over 50 separate single purpose behaviours, that are loosely base
 
 To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards.
 
-Naming Convention is as follows:
-Event Type - Affecting - State
+Naming Convention is as follows:\
+```Event Type - Affecting - State```
+
+For example:\
+```OnInteract - GameObject - Toggle``` -> OnInteract-GameObject-Toggle.asset\
+```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset
 
 | Event |  |
 | :--- | :--- |

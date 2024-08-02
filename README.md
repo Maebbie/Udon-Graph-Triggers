@@ -4,6 +4,8 @@
 These behaviours run entirely on vanilla Udon Graph and require no UdonSharp and no other dependencies to work. They exist to remove dependency of 3. parties to continue maintaining their projects.
 Simple triggers should only need simple requirements.
 
+<img src="https://github.com/user-attachments/assets/6a05e8db-eacf-444a-9332-e670c2ac3c3f" width="640">
+
 Found here are over 50 separate single purpose behaviours, that are loosely based on the old SDK2 trigger system's functionality. Nodes are set at the same position on the graph across all behaviours found here. This means Events, SetActive and other nodes that occur multiple times are always found at the same spot.
 
 To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards.

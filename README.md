@@ -8,7 +8,7 @@ Simple triggers should only need simple requirements.
 
 Found here are over 50 separate single purpose behaviours, that are loosely based on the old SDK2 trigger system's functionality. Nodes are set at the same position on the graph across all behaviours found here. This means Events, SetActive and other nodes that occur multiple times are always found at the same spot.
 
-To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards.
+To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards. Multiple Scripts can be used in the same Gameobject by adding Multiple Udon Behaviour Scripts to it.
 
 Naming Convention is as follows:\
 ```Event Type - Affecting - State```

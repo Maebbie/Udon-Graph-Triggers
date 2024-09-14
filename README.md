@@ -1,6 +1,6 @@
 ## **Latest release: https://github.com/Maebbie/Udon-Graph-Triggers/releases**
 
-**Udon Graph Triggers** contains an essential assortment of Triggers ready to use for setting up basic world interactions.
+**Udon Graph Triggers** contains an essential assortment of Triggers ready to use for setting up basic world interactions in VRChat.
 These behaviours run entirely on vanilla Udon Graph and require no UdonSharp and no other dependencies to work. They exist to remove dependency of 3. parties to continue maintaining their projects.
 Simple triggers should only need simple requirements.
 

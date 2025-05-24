@@ -1,16 +1,18 @@
 ## **Latest release: https://github.com/Maebbie/Udon-Graph-Triggers/releases**
 
 **Udon Graph Triggers** contains an essential assortment of Triggers ready to use for setting up basic world interactions in VRChat.
-These behaviours run entirely on vanilla Udon Graph and require no UdonSharp and no other dependencies to work. They exist to remove dependency of 3. parties to continue maintaining their projects.
-Simple triggers should only need simple requirements.
+
+Scroll down for a Quick Start Guide.
 
 <img src="https://github.com/user-attachments/assets/6a05e8db-eacf-444a-9332-e670c2ac3c3f" width="640">
 
-Found here are over 50 separate single purpose behaviours, that are loosely based on the old SDK2 trigger system's functionality. Nodes are set at the same position on the graph across all behaviours found here. This means Events, SetActive and other nodes that occur multiple times are always found at the same spot.
+To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards. multiple Scripts can be used in the same Gameobject by adding Multiple Udon Behaviour Scripts to it.
 
-To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards. Multiple Scripts can be used in the same Gameobject by adding Multiple Udon Behaviour Scripts to it.
+<img src="https://github.com/user-attachments/assets/3a05ffd3-a7ef-43e2-a7b7-6d900b129bf8" width="519">
 
-Naming Convention is as follows:\
+There are over 50 separate single purpose behaviours, that are loosely based on the old SDK2 trigger system's functionality.
+
+They follow a uniform Naming Convention:\
 ```Event Type - Affecting - State```
 
 For example:\
@@ -44,6 +46,10 @@ For example:\
 
 Requirements
 Only the VRChat SDK
+
+Nodes are set at the same position on the graph across all behaviours found here. This means Events, SetActive and other nodes that occur multiple times are always found at the same spot.
+These behaviours run entirely on vanilla Udon Graph and require no UdonSharp and no other dependencies to work. They exist to remove dependency of 3. parties to continue maintaining their projects.
+Simple triggers should only need simple requirements.
 
 I developed these as part of my efforts to make maintaining my VRChat Worlds as easy as possible. Having to rely on anything other than the VRChat SDK and potentially replacing tools can be a time drain in the future that is easily avoidable.
 

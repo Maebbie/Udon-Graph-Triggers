@@ -4,7 +4,7 @@
 
 Scroll down for a Quick Start Guide.
 
-<img src="https://github.com/user-attachments/assets/6a05e8db-eacf-444a-9332-e670c2ac3c3f" width="640">
+<img src="https://github.com/user-attachments/assets/6a05e8db-eacf-444a-9332-e670c2ac3c3f" width="426">
 
 To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards. multiple Scripts can be used in the same Gameobject by adding Multiple Udon Behaviour Scripts to it.
 

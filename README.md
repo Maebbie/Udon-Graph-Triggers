@@ -16,14 +16,13 @@ Multiple Triggers can be used in the same Gameobject by adding Multiple Udon Beh
  </tr>
 </table>
 
-There are over 100 separate single purpose behaviours, that are loosely based on the old SDK2 trigger system's functionality.
-
+Found here are over 100 separate single purpose behaviours, that are loosely based on the old SDK2 trigger system's functionality.\
 They follow a uniform Naming Convention:\
 ```Event Type - Affecting - State```
 
 For example:\
-```OnInteract - GameObject - Toggle``` -> OnInteract-GameObject-Toggle.asset\
-```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset
+```OnInteract      - GameObject    - Toggle``` -> OnInteract-GameObject-Toggle.asset\
+```OnEnable        - GameObject    - On    ``` -> OnEnable-GameObject-On.asset\
 
 | Prefix |  |  |
 | :--- | :--- |  :--- |

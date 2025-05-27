@@ -21,8 +21,8 @@ They follow a uniform Naming Convention:\
 ```Event Type - Affecting - State```
 
 For example:\
-```OnInteract      - GameObject    - Toggle``` -> OnInteract-GameObject-Toggle.asset\
-```OnEnable        - GameObject    - On    ``` -> OnEnable-GameObject-On.asset\
+```OnInteract - GameObject - Toggle``` -> OnInteract-GameObject-Toggle.asset\
+```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset\
 
 | Prefix |  |  |
 | :--- | :--- |  :--- |

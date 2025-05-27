@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: Sync_OnInteract-GameObject-On
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 11f7bd4b473349843b576828cccfd33b,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: aff7f1ef650603e4eb037a476c7a2572,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export targets\r\n    .sync Sync_State,
     none\r\n    \r\n    __player_0: %VRCSDKBaseVRCPlayerApi, null\r\n    __obj_0:
@@ -257,7 +257,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 6dcb1bfa-f00a-416d-8c16-3359cb0f0252
-      position: {x: -100, y: -40}
+      position: {x: -100, y: 20}
       nodeUIDs:
       - 
       flowUIDs: []

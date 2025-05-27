@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: Sync_OnInteract-GameObject-Toggle
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 1ea093dc1b925e64c85ccaca2008ebdd,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 28940d22791b2fb4d959cf8413876567,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export targets\r\n    .sync Sync_State,
     none\r\n    \r\n    __player_0: %VRCSDKBaseVRCPlayerApi, null\r\n    __obj_0:
@@ -82,7 +82,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Variable_UnityEngineGameObjectArray
       uid: c8712d87-2209-4742-8105-c7251fd5da99
-      position: {x: -795, y: 1110}
+      position: {x: -1070, y: 1365}
       nodeUIDs:
       - 
       - 
@@ -186,7 +186,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Variable_SystemBoolean
       uid: 9dc3d82c-4a0e-4b95-9345-249512406e28
-      position: {x: -3525, y: 4335}
+      position: {x: -4090, y: 5305}
       nodeUIDs:
       - 
       - 
@@ -272,7 +272,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 6dcb1bfa-f00a-416d-8c16-3359cb0f0252
-      position: {x: -100, y: -40}
+      position: {x: -100, y: 20}
       nodeUIDs:
       - 
       flowUIDs: []

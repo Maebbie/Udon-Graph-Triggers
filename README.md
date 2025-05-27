@@ -19,37 +19,42 @@ For example:\
 ```OnInteract - GameObject - Toggle``` -> OnInteract-GameObject-Toggle.asset\
 ```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset
 
-| Event |  |  |
-| :--- | :--- | :--- |
-|On Enable | As soon as the Object is enabled, often used to activate on World being loaded.| Ideal to trigger something local to only the Player loading in. |
+| Prefix |  |  |
+| :--- | :--- |  :--- |
+|```On...``` | Non-synced Triggers | Found in "Regular Udon-Graph-Triggers"|
+|```Sync_On...``` | Synced Triggers | Found in "Synced Udon-Graph-Triggers"|
+
+| Event |  |
+| :--- | :--- |
+|On Enable | As soon as the Object is enabled, often used to activate on World being loaded.|
 |On Enter Station | When entering a Seat|
 |On Exit Station | When leaving a Seat|
 |On Interact | When interacting with a Button or similar|
 |On Object PickUp | When an Object is picked up|
 |On Object Drop | When a held Object is dropped|
-|On Object Enter Trigger | When Objects enter a trigger area | Put the trigger area and the desired Objects on the same layer to have only certain Objects trigger this. |
-|On Object Exit Trigger | When Objects exit a trigger are | Put the trigger area and the desired Objects on the same layer to have only certain Objects trigger this. |
+|On Object Enter Trigger | When Objects enter a trigger area that they share a Layer with |
+|On Object Exit Trigger | When Objects exit a trigger area that they share a Layer with|
 |On Player Enter Trigger | When entering a trigger area|
 |On Player Exit Trigger | When exiting a trigger area|
-|On Player joined | When a Player joins | Will fire on any new Player joining, not just you as a local Player. |
+|On Player joined | When any Player joins |
 
-| Affecting |  |  |
-| :--- | :--- | :--- |
-|GameObject | "targets" can be multiple ones. A number of targets above 1 needs to be input to use more than 1.| You may use a larger number for targets, than needed. |
+| Affecting |  |
+| :--- | :--- |
+|GameObject | "targets" can be multiple ones. A number of targets above 1 needs to be input to use more than 1.|
 |AnimatorBool | target here is the GameObject that has the Animator component.|
-|Collider | target here is the GameObject, it will select the collider automatically.|
-|Collider IsTrigger | target here is the GameObject, it will select the collider automatically and adjust the "IsTrigger" state.|
+|Collider | target here is the GameObject, it will select the Collider automatically.|
+|Collider IsTrigger | target here is the GameObject, it will select the Collider automatically and adjust its "IsTrigger" state.|
 
-| State |  |  |
-| :--- | :--- | :--- |
+| State |  |
+| :--- | :--- |
 |On||
 |Off||
 |Toggle||
 |On then Off| Sets the state to On and then to Off, with a field to set a delay inbetween.|
 |Off then Off| Sets the state to On and then to Off, with a field to set a delay inbetween.|
 
-| Misc |  |  |
-| :--- | :--- | :--- |
+| Misc |  |
+| :--- | :--- |
 |LocalPlayer | Only triggers on your own Player, not when other Players interact|
 |RandomChance | These triggers only fire at random.| A chance between 0.0 (never) to 1.0 (always) can be set|
 |Delayed | These triggers have a field to set a delay for the action.|

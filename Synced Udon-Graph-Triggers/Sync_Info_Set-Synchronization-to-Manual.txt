@@ -1,0 +1,1 @@
+These Triggers are set up to manually sync up on change, ensure the Synchronization field on the Udon Behaviour is set to "Manual"

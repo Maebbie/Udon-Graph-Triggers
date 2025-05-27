@@ -11,8 +11,8 @@ Multiple Triggers can be used in the same Gameobject by adding Multiple Udon Beh
 
 <table border="0">
  <tr>
-    <td><img src="https://github.com/user-attachments/assets/3a05ffd3-a7ef-43e2-a7b7-6d900b129bf8" width="519"></td>
-    <td><img src="https://github.com/user-attachments/assets/90a469d1-177f-4e72-9b93-b3b4eed80751" width="250"></td>
+    <td><img src="https://github.com/Maebbie/Udon-Graph-Triggers/blob/main/Udon-Graph-Triggers_QuickStart.png" width="519"></td>
+    <td><img src="https://github.com/Maebbie/Udon-Graph-Triggers/blob/main/Udon-Graph-Triggers-Listview.png" width="250"></td>
  </tr>
 </table>
 

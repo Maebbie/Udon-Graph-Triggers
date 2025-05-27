@@ -1,7 +1,3 @@
-### I will have a proper updated release ready shortly, download the repo for now, as I continue updating it for the next 2 days or so. Code (top right) -> Local Tab -> Download ZIP (bottom)
-Every script currently in it is tested via several test cases.
-## **Latest release: https://github.com/Maebbie/Udon-Graph-Triggers/releases**
-
 **Udon Graph Triggers** contains an essential assortment of Triggers ready to use for setting up basic world interactions in VRChat.
 
 Scroll down for a Quick Start Guide.

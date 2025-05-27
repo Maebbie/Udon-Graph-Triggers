@@ -1,17 +1,21 @@
 ## **Latest release: https://github.com/Maebbie/Udon-Graph-Triggers/releases**
 
-**Udon Graph Triggers** contains an essential assortment of Triggers ready to use for setting up basic world interactions in VRChat. It has both regular and synched variants.
+**Udon Graph Triggers** contains an essential assortment of Triggers, ready to use for setting up basic world interactions in VRChat. It has both regular and synched variants.
 
 Scroll down for a Quick Start Guide.
 
 <img src="https://github.com/user-attachments/assets/6a05e8db-eacf-444a-9332-e670c2ac3c3f" width="426">
 
-To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards.\
+To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards.
+
+!! **Ensure that Synced Triggers ( those starting with " Sync_" ) have their Synchronization set to 'Manual' on the Udon Behaviour.** !!\
+See the Quick Start Guide below.
+
 Multiple Triggers can be used in the same Gameobject by adding Multiple Udon Behaviour Scripts to it.
 
 <table border="0">
  <tr>
-    <td><img src="https://github.com/Maebbie/Udon-Graph-Triggers/blob/main/Udon-Graph-Triggers_QuickStart.png" width="519"></td>
+    <td><img src="https://github.com/Maebbie/Udon-Graph-Triggers/blob/main/Udon-Graph-Triggers_QuickStart.png" width="512"></td>
     <td><img src="https://github.com/Maebbie/Udon-Graph-Triggers/blob/main/Udon-Graph-Triggers-Listview.png" width="250"></td>
  </tr>
 </table>

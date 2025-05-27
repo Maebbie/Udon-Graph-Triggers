@@ -24,10 +24,10 @@ For example:\
 ```OnInteract - GameObject - Toggle``` -> OnInteract-GameObject-Toggle.asset\
 ```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset\
 
-| Prefix |  |  |
-| :--- | :--- |  :--- |
-|```On...``` | Non-synced Triggers | Found in "Regular Udon-Graph-Triggers"|
-|```Sync_On...``` | Synced Triggers | Found in "Synced Udon-Graph-Triggers"|
+| Prefix |  |  |  |
+| :--- | :--- |  :--- | :--- |
+|```On...``` | Non-synced Triggers | Found in "Regular Udon-Graph-Triggers" | Set Synchronization to 'None'|
+|```Sync_On...``` | Synced Triggers | Found in "Synced Udon-Graph-Triggers"| Set Synchronization to 'Manual'|
 
 | Event |  |
 | :--- | :--- |

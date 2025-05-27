@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: OnEnterStation-Collider-On
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b82440767073ea841a0db3967ccd9e61,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 9db8b3dc4a3fc424a8063d85d3d0d644,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export target\r\n    \r\n    __instance_0:
     %UnityEngineCollider, null\r\n    __value_0: %SystemBoolean, null\r\n    target:
@@ -28,7 +28,7 @@ MonoBehaviour:
     nodes:
     - fullName: Get_Variable
       uid: b51d01c7-8420-44a5-be6c-3a3bc53f29bd
-      position: {x: -128, y: -176}
+      position: {x: -130, y: -180}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -62,7 +62,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid
       uid: 45f7624d-fbb8-4a0f-8e8e-827a188ba443
-      position: {x: 688, y: -80}
+      position: {x: 690, y: -80}
       nodeUIDs:
       - b51d01c7-8420-44a5-be6c-3a3bc53f29bd|0
       - 
@@ -74,8 +74,8 @@ MonoBehaviour:
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|True
     - fullName: Event_OnStationEntered
-      uid: e6e2e499-396a-4153-a0c5-e7a793324cd6
-      position: {x: -128, y: -288}
+      uid: 986e3472-b9fb-47d0-af0e-84735a20b493
+      position: {x: -130, y: -300}
       nodeUIDs: []
       flowUIDs:
       - 45f7624d-fbb8-4a0f-8e8e-827a188ba443

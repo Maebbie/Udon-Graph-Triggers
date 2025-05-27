@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: OnPlayerEnterTrigger-GameObject-TeleportPlayer
+  m_Name: OnPlayerEnterTrigger-GameObject-TeleportPlayer-LocalPlayer
   m_EditorClassIdentifier: 
   serializedUdonProgramAsset: {fileID: 11400000, guid: 91fa29338f65e814b81ebc9de43fccf6,
     type: 2}
@@ -65,7 +65,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: VRCSDKBaseVRCPlayerApi.__TeleportTo__UnityEngineVector3_UnityEngineQuaternion__SystemVoid
       uid: fa814bd4-ee4a-4f6b-9318-1910a9804032
-      position: {x: 688, y: -80}
+      position: {x: 690, y: -80}
       nodeUIDs:
       - fa49b474-ae8c-4b68-ad76-c4365c9879ea|0
       - 410d42f2-2ad8-444e-a0a9-d33b3f90c321|0
@@ -82,13 +82,13 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0,"w":0.0}
     - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
       uid: fa49b474-ae8c-4b68-ad76-c4365c9879ea
-      position: {x: 96, y: -176}
+      position: {x: 100, y: -180}
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
     - fullName: Get_Variable
       uid: d8728f68-822d-470f-9092-e628fbe4e472
-      position: {x: -144, y: -176}
+      position: {x: -140, y: -180}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -99,7 +99,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineTransform.__get_position__UnityEngineVector3
       uid: 410d42f2-2ad8-444e-a0a9-d33b3f90c321
-      position: {x: 96, y: -80}
+      position: {x: 100, y: -80}
       nodeUIDs:
       - d8728f68-822d-470f-9092-e628fbe4e472|0
       flowUIDs: []
@@ -108,7 +108,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineTransform.__get_rotation__UnityEngineQuaternion
       uid: fd52ca13-50fc-4c6c-addc-7ee2b3feecf3
-      position: {x: 96, y: 16}
+      position: {x: 100, y: 20}
       nodeUIDs:
       - d8728f68-822d-470f-9092-e628fbe4e472|0
       flowUIDs: []
@@ -117,20 +117,20 @@ MonoBehaviour:
         stringValue: 
     - fullName: Event_OnPlayerTriggerEnter
       uid: ca24bfdf-b761-49ab-9adc-d620646e3e2b
-      position: {x: -176, y: -288}
+      position: {x: -180, y: -290}
       nodeUIDs: []
       flowUIDs:
       - 49a9968e-7a86-4c38-9b36-5ee1702d3ac7
       nodeValues: []
     - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
       uid: 4feddf7b-3490-4e12-80ee-6c88712a2762
-      position: {x: -112, y: -384}
+      position: {x: -110, y: -380}
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
     - fullName: VRCSDKBaseVRCPlayerApi.__Equals__SystemObject__SystemBoolean
       uid: c1ae9c00-9913-4b43-9d55-01e58ddc9385
-      position: {x: 96, y: -464}
+      position: {x: 100, y: -460}
       nodeUIDs:
       - ca24bfdf-b761-49ab-9adc-d620646e3e2b|0
       - 4feddf7b-3490-4e12-80ee-6c88712a2762
@@ -142,7 +142,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Branch
       uid: 49a9968e-7a86-4c38-9b36-5ee1702d3ac7
-      position: {x: 96, y: -352}
+      position: {x: 100, y: -350}
       nodeUIDs:
       - c1ae9c00-9913-4b43-9d55-01e58ddc9385
       flowUIDs:
@@ -154,4 +154,4 @@ MonoBehaviour:
     updateOrder: 0
   graphElementData: []
   version: 1.0.0
-  showAssembly: 1
+  showAssembly: 0

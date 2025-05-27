@@ -60,7 +60,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 18269ef9-ff2b-4ddd-8462-7e5ec13d63ac
-      position: {x: -144, y: -176}
+      position: {x: -140, y: -180}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -71,7 +71,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid
       uid: 14fa9de9-cc6a-4fa4-8bd8-e9e921fe4e87
-      position: {x: 688, y: -80}
+      position: {x: 690, y: -80}
       nodeUIDs:
       - 18269ef9-ff2b-4ddd-8462-7e5ec13d63ac|0
       - af10d0e3-3042-4e36-9f96-86d98eb7e817|0
@@ -110,7 +110,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: af10d0e3-3042-4e36-9f96-86d98eb7e817
-      position: {x: -128, y: -80}
+      position: {x: -130, y: -80}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -121,20 +121,20 @@ MonoBehaviour:
         stringValue: 
     - fullName: Event_OnStationExited
       uid: 44fa500b-e4f0-4f05-a3db-da9547fedba7
-      position: {x: -112, y: -304}
+      position: {x: -110, y: -300}
       nodeUIDs: []
       flowUIDs:
       - c80fd369-0336-477b-b817-5620f6ae775c
       nodeValues: []
     - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
       uid: 5c1b6805-1cce-40ae-8129-287901282968
-      position: {x: -112, y: -384}
+      position: {x: -110, y: -380}
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
     - fullName: VRCSDKBaseVRCPlayerApi.__Equals__SystemObject__SystemBoolean
       uid: 43eb9d2f-57ab-4a3a-802e-851e11c153b9
-      position: {x: 96, y: -464}
+      position: {x: 100, y: -460}
       nodeUIDs:
       - 44fa500b-e4f0-4f05-a3db-da9547fedba7|0
       - 5c1b6805-1cce-40ae-8129-287901282968
@@ -146,7 +146,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Branch
       uid: c80fd369-0336-477b-b817-5620f6ae775c
-      position: {x: 96, y: -352}
+      position: {x: 100, y: -350}
       nodeUIDs:
       - 43eb9d2f-57ab-4a3a-802e-851e11c153b9
       flowUIDs:

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: OnObjectEnterTrigger-GameObject-On_then_Off
+  m_Name: OnObjectEnterTrigger-GameObject-Off_then_On
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 5678b44cc9d67e64e899cd30d50da23d,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: da6737b8160db5342b39302fde1b1ddc,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export targets\r\n    .export DelayInSec\r\n   
     \r\n    __index_0: %SystemInt32, null\r\n    __condition_0: %SystemBoolean, null\r\n   
@@ -93,7 +93,7 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|True
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Variable_UnityEngineGameObjectArray
       uid: c8712d87-2209-4742-8105-c7251fd5da99
       position: {x: -304, y: 96}
@@ -281,7 +281,7 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
+          PublicKeyToken=b77a5c561934e089|True
     - fullName: UnityEngineGameObjectArray.__Get__SystemInt32__UnityEngineGameObject
       uid: 59a40c9c-ee39-43f0-a840-10fe9f4587dc
       position: {x: 100, y: 460}

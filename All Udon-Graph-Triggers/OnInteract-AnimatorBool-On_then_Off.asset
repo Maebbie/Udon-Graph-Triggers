@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: OnInteract-AnimatorBool-Off_then_On
+  m_Name: OnInteract-AnimatorBool-On_then_Off
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: d01d362ed7712814e910622b639d67d9,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 62f1044043a4994459506de22f395ee2,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export animatortarget\r\n    .export parametername\r\n   
     .export DelayInSec\r\n    \r\n    __instance_0: %UnityEngineAnimator, null\r\n   
@@ -49,7 +49,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Variable_UnityEngineAnimator
       uid: cac1ca95-5b7b-4de4-b9d1-2ad5fe16e059
-      position: {x: -547, y: -272}
+      position: {x: -272, y: 128}
       nodeUIDs:
       - 
       - 
@@ -97,10 +97,10 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
+          PublicKeyToken=b77a5c561934e089|True
     - fullName: Variable_SystemString
       uid: c0436ff2-f832-4be9-851d-59295f09553c
-      position: {x: -547, y: -272}
+      position: {x: -272, y: 128}
       nodeUIDs:
       - 
       - 
@@ -169,7 +169,7 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|True
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 1b07a711-a8d4-4efd-9ea0-2b8c1334cc8a
       position: {x: -130, y: 510}
@@ -202,7 +202,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|Update
     - fullName: Variable_SystemSingle
       uid: d9e51652-10da-416f-b529-9e363cdc6fd6
-      position: {x: -1571, y: 327}
+      position: {x: -736, y: 192}
       nodeUIDs:
       - 
       - 

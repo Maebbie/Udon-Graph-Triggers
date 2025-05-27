@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: OnInteract-GameObject-Toggle
+  m_Name: OnObjectDrop-GameObject-Toggle
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: a3775587350806544baa6033524b2503,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 8fc1c373e7e56bf49a49212f597372bd,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export targets\r\n    \r\n    __index_0:
     %SystemInt32, null\r\n    __condition_0: %SystemBoolean, null\r\n    __Boolean_0:
@@ -24,7 +24,7 @@ MonoBehaviour:
     null\r\n    __start_0: %SystemInt32, null\r\n    __end_0: %SystemInt32, null\r\n   
     __step_0: %SystemInt32, null\r\n    __instance_0: %UnityEngineGameObjectArray,
     null\r\n    targets: %UnityEngineGameObjectArray, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
-    .export _interact\r\n    \r\n    _interact:\r\n    \r\n        PUSH, targets\r\n       
+    .export _onDrop\r\n    \r\n    _onDrop:\r\n    \r\n        PUSH, targets\r\n       
     PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
     __end_0\r\n        EXTERN, \"UnityEngineGameObjectArray.__get_Length__SystemInt32\"\r\n       
     PUSH, __start_0\r\n        PUSH, __index_0\r\n        COPY\r\n        PUSH, __index_0\r\n       
@@ -55,13 +55,6 @@ MonoBehaviour:
     name: 
     description: 
     nodes:
-    - fullName: Event_Interact
-      uid: e6797334-cb1f-411a-9517-e8161175f816
-      position: {x: -50, y: -290}
-      nodeUIDs: []
-      flowUIDs:
-      - 5c524865-1f19-4e34-948b-e8eeed3c8e80
-      nodeValues: []
     - fullName: UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid
       uid: 2e012009-b9c1-4c1a-b2e0-723bcbb7f626
       position: {x: 690, y: -80}
@@ -198,6 +191,13 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|False
+    - fullName: Event_OnDrop
+      uid: 5a7ebb4f-96ef-47e2-9a34-444dd7176da6
+      position: {x: -50, y: -290}
+      nodeUIDs: []
+      flowUIDs:
+      - 5c524865-1f19-4e34-948b-e8eeed3c8e80
+      nodeValues: []
     updateOrder: 0
   graphElementData: []
   version: 1.0.0

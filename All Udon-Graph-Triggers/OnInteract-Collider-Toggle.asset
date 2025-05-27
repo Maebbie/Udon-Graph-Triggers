@@ -32,14 +32,14 @@ MonoBehaviour:
     nodes:
     - fullName: Event_Interact
       uid: e6797334-cb1f-411a-9517-e8161175f816
-      position: {x: -48, y: -288}
+      position: {x: -50, y: -290}
       nodeUIDs: []
       flowUIDs:
       - 45f7624d-fbb8-4a0f-8e8e-827a188ba443
       nodeValues: []
     - fullName: SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean
       uid: 3362a8e8-1090-4bfc-a133-372f022ae149
-      position: {x: 320, y: -16}
+      position: {x: 320, y: -20}
       nodeUIDs:
       - dfb44bb7-bc10-482c-8943-57efe4919659|0
       flowUIDs: []
@@ -49,7 +49,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: b51d01c7-8420-44a5-be6c-3a3bc53f29bd
-      position: {x: -128, y: -176}
+      position: {x: -130, y: -180}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -83,7 +83,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: UnityEngineCollider.__get_enabled__SystemBoolean
       uid: dfb44bb7-bc10-482c-8943-57efe4919659
-      position: {x: 320, y: -112}
+      position: {x: 320, y: -110}
       nodeUIDs:
       - b51d01c7-8420-44a5-be6c-3a3bc53f29bd|0
       flowUIDs: []
@@ -92,7 +92,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid
       uid: 45f7624d-fbb8-4a0f-8e8e-827a188ba443
-      position: {x: 688, y: -80}
+      position: {x: 690, y: -80}
       nodeUIDs:
       - b51d01c7-8420-44a5-be6c-3a3bc53f29bd|0
       - 3362a8e8-1090-4bfc-a133-372f022ae149|0

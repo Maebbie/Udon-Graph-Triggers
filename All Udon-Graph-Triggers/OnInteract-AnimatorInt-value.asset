@@ -31,7 +31,7 @@ MonoBehaviour:
     nodes:
     - fullName: Event_Interact
       uid: e6797334-cb1f-411a-9517-e8161175f816
-      position: {x: -48, y: -288}
+      position: {x: -50, y: -290}
       nodeUIDs: []
       flowUIDs:
       - 70cbc9f7-9f45-4a77-aef8-ef36eee166ff
@@ -61,7 +61,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 18269ef9-ff2b-4ddd-8462-7e5ec13d63ac
-      position: {x: -144, y: -176}
+      position: {x: -140, y: -180}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -95,7 +95,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: af10d0e3-3042-4e36-9f96-86d98eb7e817
-      position: {x: -128, y: -80}
+      position: {x: -130, y: -80}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -106,7 +106,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineAnimator.__SetInteger__SystemString_SystemInt32__SystemVoid
       uid: 70cbc9f7-9f45-4a77-aef8-ef36eee166ff
-      position: {x: 688, y: -80}
+      position: {x: 690, y: -80}
       nodeUIDs:
       - 18269ef9-ff2b-4ddd-8462-7e5ec13d63ac|0
       - af10d0e3-3042-4e36-9f96-86d98eb7e817|0
@@ -144,7 +144,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: a20e70cb-7816-4fcb-a8dc-1a2cd9a43e8e
-      position: {x: -64, y: 16}
+      position: {x: -60, y: 20}
       nodeUIDs:
       - 
       flowUIDs: []

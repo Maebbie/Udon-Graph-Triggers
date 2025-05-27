@@ -10,29 +10,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: OnInteract-Collider-Off
+  m_Name: OnExitStation-Collider-Toggle
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 383a6cf5ac2b8a344bf9485481d5960e,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 4bb073470cc6f7347a075055320c9ff3,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export target\r\n    \r\n    __instance_0:
-    %UnityEngineCollider, null\r\n    __value_0: %SystemBoolean, null\r\n    target:
+    %UnityEngineCollider, null\r\n    __value_0: %SystemBoolean, null\r\n    __Boolean_0:
+    %SystemBoolean, null\r\n    __instance_1: %UnityEngineCollider, null\r\n    target:
     %UnityEngineCollider, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export
-    _interact\r\n    \r\n    _interact:\r\n    \r\n        PUSH, target\r\n       
-    PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
-    __value_0\r\n        EXTERN, \"UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
+    _onStationExited\r\n    \r\n    _onStationExited:\r\n    \r\n        PUSH, target\r\n       
+    PUSH, __instance_0\r\n        COPY\r\n        PUSH, target\r\n        PUSH, __instance_1\r\n       
+    COPY\r\n        PUSH, __instance_1\r\n        PUSH, __Boolean_0\r\n        EXTERN,
+    \"UnityEngineCollider.__get_enabled__SystemBoolean\"\r\n        PUSH, __Boolean_0\r\n       
+    PUSH, __value_0\r\n        EXTERN, \"SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean\"\r\n       
+    PUSH, __instance_0\r\n        PUSH, __value_0\r\n        EXTERN, \"UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
     name: 
     description: 
     nodes:
-    - fullName: Event_Interact
-      uid: e6797334-cb1f-411a-9517-e8161175f816
-      position: {x: -50, y: -290}
-      nodeUIDs: []
-      flowUIDs:
-      - 45f7624d-fbb8-4a0f-8e8e-827a188ba443
-      nodeValues: []
+    - fullName: SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean
+      uid: 3362a8e8-1090-4bfc-a133-372f022ae149
+      position: {x: 320, y: -20}
+      nodeUIDs:
+      - dfb44bb7-bc10-482c-8943-57efe4919659|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: b51d01c7-8420-44a5-be6c-3a3bc53f29bd
       position: {x: -130, y: -180}
@@ -67,12 +74,21 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: UnityEngineCollider.__get_enabled__SystemBoolean
+      uid: dfb44bb7-bc10-482c-8943-57efe4919659
+      position: {x: 320, y: -110}
+      nodeUIDs:
+      - b51d01c7-8420-44a5-be6c-3a3bc53f29bd|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
     - fullName: UnityEngineCollider.__set_enabled__SystemBoolean__SystemVoid
       uid: 45f7624d-fbb8-4a0f-8e8e-827a188ba443
       position: {x: 690, y: -80}
       nodeUIDs:
       - b51d01c7-8420-44a5-be6c-3a3bc53f29bd|0
-      - 
+      - 3362a8e8-1090-4bfc-a133-372f022ae149|0
       flowUIDs: []
       nodeValues:
       - unityObjectValue: {fileID: 0}
@@ -80,6 +96,13 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|False
+    - fullName: Event_OnStationExited
+      uid: 3abba584-07a4-4e49-907c-2bb0106cc57b
+      position: {x: -130, y: -300}
+      nodeUIDs: []
+      flowUIDs:
+      - 45f7624d-fbb8-4a0f-8e8e-827a188ba443
+      nodeValues: []
     updateOrder: 0
   graphElementData: []
   version: 1.0.0

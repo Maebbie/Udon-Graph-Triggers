@@ -25,24 +25,34 @@ For example:\
 |On Enter Station | When entering a Seat|
 |On Exit Station | When leaving a Seat|
 |On Interact | When interacting with a button or similar|
+|On Object PickUp | When An Object is picked up|
+|On Object Drop | When an Object is dropped|
+|On Object Enter Trigger | When Objects enter a trigger area|
+|On Object Exit Trigger | When Objects exit a trigger are|
 |On Player Enter Trigger | When entering a trigger area|
 |On Player Exit Trigger | When exiting a trigger area|
 |On Player joined | When a Player joins|
-|On local Player joined | When you join and successfully connect|
 
 | Affecting |  |
 | :--- | :--- |
-|GameObjects | "targets" can be multiple ones. A number of targets above 1 needs to be input to use more than 1.|
+|GameObject | "targets" can be multiple ones. A number of targets above 1 needs to be input to use more than 1.|
 |AnimatorBool | target here is the GameObject that has the Animator component.|
 |Collider | target here is the GameObject, it will select the collider automatically.|
+|Collider IsTrigger | target here is the GameObject, it will select the collider automatically and adjust the "IsTrigger" state|
 
-| State |
-| :--- |
-|On|
-|Off|
-|Toggle|
-|with delay|
-|with a random chance to activate|
+| State |  |
+| :--- | :--- |
+|On||
+|Off||
+|Toggle||
+|On then Off| Sets the state to On and then to Off, with a field to set a delay inbetween|
+|Off then Off| Sets the state to On and then to Off, with a field to set a delay inbetween|
+
+| Misc |  |
+| :--- | :--- |
+|LocalPlayer | Only triggers on your own Player, not when other Players interact|
+|RandomChance | These triggers only fire at random. 0.0 to 1.0 chance that can be set|
+|Delayed | These triggers have a field to set a delay for the action.|
 
 Requirements
 Only the VRChat SDK

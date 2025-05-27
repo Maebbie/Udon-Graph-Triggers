@@ -21,8 +21,8 @@ For example:\
 ```OnInteract - GameObject - Toggle``` -> OnInteract-GameObject-Toggle.asset\
 ```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset
 
-| Event |  |
-| :--- | :--- |
+| Event |  |  |
+| :--- | :--- | :--- |
 |On Enable | As soon as the Object is enabled, often used to activate on World being loaded.| Ideal to trigger something local to only the Player loading in. |
 |On Enter Station | When entering a Seat|
 |On Exit Station | When leaving a Seat|
@@ -35,23 +35,23 @@ For example:\
 |On Player Exit Trigger | When exiting a trigger area|
 |On Player joined | When a Player joins | Will fire on any new Player joining, not just you as a local Player. |
 
-| Affecting |  |
-| :--- | :--- |
+| Affecting |  |  |
+| :--- | :--- | :--- |
 |GameObject | "targets" can be multiple ones. A number of targets above 1 needs to be input to use more than 1.| You may use a larger number for targets, than needed. |
 |AnimatorBool | target here is the GameObject that has the Animator component.|
 |Collider | target here is the GameObject, it will select the collider automatically.|
 |Collider IsTrigger | target here is the GameObject, it will select the collider automatically and adjust the "IsTrigger" state.|
 
-| State |  |
-| :--- | :--- |
+| State |  |  |
+| :--- | :--- | :--- |
 |On||
 |Off||
 |Toggle||
 |On then Off| Sets the state to On and then to Off, with a field to set a delay inbetween.|
 |Off then Off| Sets the state to On and then to Off, with a field to set a delay inbetween.|
 
-| Misc |  |
-| :--- | :--- |
+| Misc |  |  |
+| :--- | :--- | :--- |
 |LocalPlayer | Only triggers on your own Player, not when other Players interact|
 |RandomChance | These triggers only fire at random.| A chance between 0.0 (never) to 1.0 (always) can be set|
 |Delayed | These triggers have a field to set a delay for the action.|

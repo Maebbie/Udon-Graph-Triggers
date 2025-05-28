@@ -6,7 +6,7 @@ Scroll down for a Quick Start Guide.
 
 <img src="https://github.com/user-attachments/assets/6a05e8db-eacf-444a-9332-e670c2ac3c3f" width="426">
 
-To use these, simply add a Udon Behaviour Script to a Game Object and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards.
+To use these, simply add a Udon Behaviour Script to a Game Object, that has a Collider Component and drag the desired Behaviour into the "Program Source" field. All relevant options appear afterwards.
 
 !! **Ensure that Synced Triggers ( those starting with " Sync_" ) have their Synchronization set to 'Manual' on the Udon Behaviour.** !!\
 See the Quick Start Guide below.

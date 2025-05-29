@@ -78,3 +78,5 @@ Simple triggers should only need simple requirements.
 I developed these as part of my efforts to make maintaining my VRChat Worlds as easy as possible. Having to rely on anything other than the VRChat SDK and potentially replacing tools can be a time drain in the future that is easily avoidable.
 
 ~Maebbie
+
+*[initital release 2024-08-01](https://github.com/Maebbie/Udon-Graph-Triggers/activity?sort=ASC)*

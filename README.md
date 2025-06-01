@@ -26,7 +26,7 @@ They follow a uniform Naming Convention:\
 
 For example:\
 ```OnInteract - GameObject - Toggle``` -> OnInteract-GameObject-Toggle.asset\
-```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset\
+```OnEnable   - GameObject - On    ``` -> OnEnable-GameObject-On.asset
 
 | Prefix |  |  |  |
 | :--- | :--- |  :--- | :--- |

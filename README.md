@@ -60,7 +60,7 @@ For example:\
 |Off||
 |Toggle||
 |On then Off| Sets the state to On and then to Off, with a field to set a delay inbetween.|
-|Off then Off| Sets the state to On and then to Off, with a field to set a delay inbetween.|
+|Off then On| Sets the state to Off and then to On, with a field to set a delay inbetween.|
 
 | Misc |  |
 | :--- | :--- |
